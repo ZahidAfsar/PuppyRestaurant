@@ -1,0 +1,144 @@
+body{
+    background-image: url(../assets/assets/bgtexture.jpg);
+}
+
+@font-face {
+    font-family: FugazOne;
+    src: url(../assets/Montauk-Regular/FugazOne-Regular.ttf);
+}
+
+@font-face {
+    font-family: Montauk;
+    src: url(../assets/Montauk-Regular/Montauk-Regular.otf);
+}
+
+.rowNav{
+    margin-top: 30px;
+    /* outline: red dotted 1px; */
+}
+.rowNav1{
+    margin-top: 20px;
+    font-family: FugazOne;
+    font-size: 20px;
+}
+
+.nav-link{
+    color: #5F002B;
+    margin-left: 25px;
+}
+
+.MenuTitle{
+    text-align: center;
+    /* background-color: white; */
+    font-size: 40px;
+    font-family: FugazOne;
+    color: #5F002B;
+    padding-top: 20px;
+}
+
+.box{
+    height: 80px;
+    background-color: white;
+}
+
+.box1{
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+.imgBeefMenu{
+    width: 650px;
+}
+
+.boxMenu{
+    margin: 0px;
+    padding: 0px;
+    width: 650px;
+    height: 60px;
+    background-color: white;
+}
+.boxMenu1{
+    margin: 0px;
+    padding: 0px;
+    width: 650px;
+    height: 650px;
+    background-color: white;
+}
+.boxMenu2{
+    margin: 0px;
+    padding: 0px;
+    margin-top: 0px;
+    margin-left: 22px;
+    padding-left: 0px;
+    width: 650px;
+    height: 650px;
+    background-color: white;
+}
+
+
+.SandwichesTitle{
+    font-family: FugazOne;
+    color: #5F002B;
+    font-size: 30px;
+    padding-top: 15px;
+    padding-left: 30px;
+}
+
+
+.SandwichesText{
+    font-family: Montauk;
+    font-size: 20px;
+    color: #5F002B;
+    padding-left: 30px;
+}
+.SandwichesText1{
+    font-family: Montauk;
+    font-size: 20px;
+    color: #5F002B;
+    padding-left: 30px;
+    position: relative;
+    bottom: 30px;
+}
+
+.spacetop{
+    padding-top: 20px;
+}
+
+.SandText{
+    font-family: Montauk;
+    font-size: 28px;
+    padding-top: 15px;
+    padding-left: 30px;
+    color: #5F002B;
+}
+.SandText1{
+    font-family: Montauk;
+    font-size: 28px;
+    padding-left: 30px;
+    color: #5F002B;
+}
+
+hr.new4 {
+    margin-left: 30px;
+    border: 1px solid #5F002B;
+    height: 2px;
+    width: 600px;
+    text-align: center;
+    position: relative;
+    bottom: 25px;
+  }
+
+  .footerText{
+    font-family: Montauk;
+    color: #5F002B;
+    font-size: 20px;
+  }
+  .footerText2{
+    font-family: Montauk;
+    text-align: end;
+    font-size: 20px;
+  }
+
+  .ColAlign{
+    padding-left: 10px;
+  }
