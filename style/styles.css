@@ -1,0 +1,12 @@
+body{
+    background-image: url(../assets/assets/bgtexture.jpg);
+}
+
+.paragraphBox{
+    background-color: white;
+    color:#5F002B;
+}
+
+.spacing{
+    padding-right: 20px;
+}
