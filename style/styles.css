@@ -158,3 +158,44 @@ hr.new4 {
   .ColAlign{
     padding-left: 10px;
   }
+
+  .CateringHeroImg{
+   padding-left: 0px;
+   padding-right: 0px;
+  }
+
+  .MaineImgSize{
+    width: 520px;
+    height: 300px;
+  }
+
+  .boxMaine{
+    background-color: white;
+    width: 770px;
+    height: 300px;
+  }
+
+  .SpaceContainer{
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+
+  .CateringText{
+    padding-top: 20px;
+    padding-left: 20px;
+    font-family: FugazOne;
+    font-size: 25px;
+    color: #5F002B;
+  }
+  .CateringText1{
+    position: relative;
+    bottom: 20px;
+    padding-left: 20px;
+    font-family: Montauk;
+    font-size: 14px;
+    color: #5F002B;
+  }
+
+  .card{
+    border-radius: 0px;
+  }
