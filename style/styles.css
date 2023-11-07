@@ -25,6 +25,11 @@ body{
     margin-bottom: 40px;
 }
 
+.gridPics{
+    margin: 10px;
+    border: 10px solid white;
+}
+
 .sectionTitle{
     background-color: white;
     color:#5F002B;
@@ -38,6 +43,12 @@ body{
 
 .bottomPadding{
     padding-bottom: 20px;
+}
+
+.navEdit{
+    color:#5F002B;
+    font-family: fugaz;
+    font-weight: 500;
 }
 
 @font-face {
