@@ -26,8 +26,9 @@ body{
 }
 
 .gridPics{
-    margin: 10px;
+    margin-bottom: 10px;
     border: 10px solid white;
+    object-fit: cover;
 }
 
 .sectionTitle{
@@ -49,6 +50,10 @@ body{
     color:#5F002B;
     font-family: fugaz;
     font-weight: 500;
+}
+
+.mobileImages{
+    display: flex; justify-content: center; flex-flow: column; flex-wrap: wrap;
 }
 
 @font-face {
