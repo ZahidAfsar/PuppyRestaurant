@@ -166,13 +166,14 @@ hr.new4 {
 
   .MaineImgSize{
     width: 520px;
-    height: 300px;
+    max-height: 100%;
   }
 
   .boxMaine{
     background-color: white;
-    width: 770px;
-    height: 300px;
+    /* min-width: 770px; */
+    /* min-height: 300px; */
+    
   }
 
   .SpaceContainer{
@@ -198,4 +199,31 @@ hr.new4 {
 
   .card{
     border-radius: 0px;
+  }
+/* 
+  @media  screen and (max-width: 800px) {
+    .MaineImgSize{
+        width: 280px;
+        height: 200px;
+      }
+    
+      .boxMaine{
+        background-color: white;
+        width: 400px;
+        height: 200px;
+      }
+  } */
+
+  @media screen and (max-width: 500px) {
+    .boxMaine{
+        width: 100%;
+    }
+  }
+  @media screen and (max-width: 800px) {
+    .boxMaine{
+        width: fit-content;
+    }
+    .MaineImgSize{
+       width: fit-content;
+      }
   }
