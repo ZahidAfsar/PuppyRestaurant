@@ -297,11 +297,7 @@ hr.new4 {
     src: url(../assets/FugazOne-Regular.ttf);
 }
 
-@media (max-width: 735px){
-    .storyBox{
-       
-    }
-}@font-face {
+@font-face {
     font-family: Fugaz;
     src: url(/assets/FugazOne-Regular.ttf);
 }
