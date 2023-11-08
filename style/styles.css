@@ -1,0 +1,139 @@
+@font-face {
+    font-family: Fugaz;
+    src: url(/assets/FugazOne-Regular.ttf);
+}
+
+@font-face {
+    font-family: Montauk;
+    src: url(/assets/Montauk-Regular.otf);
+}
+
+
+.nav-item{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 20px;
+    font-family: Fugaz;
+
+}
+
+.nav-link{
+    margin-left: 25px;
+    color: #5F002B;    
+
+}
+
+.navLeft {
+    display: flex;
+    justify-content: end;
+    padding-right: 60px;
+}
+
+
+@media(max-width: 768px) {
+
+    .navLeft.collapse.show {
+        display: flex;
+        justify-content: start;
+        flex-wrap: wrap;
+    }
+
+    .navLeft.collapsing {
+        display: flex;
+        justify-content: left;
+        flex-wrap: wrap;
+    }
+    .navLogo {
+        display: flex;
+        justify-content: left;
+    }
+
+
+    .padd {
+        padding-right: 0;
+        padding-left: 0;
+    }
+
+}
+
+
+
+
+body {
+    background-image: url(/assets/bgtexture.jpg);
+    /* background-size: 70%; */
+
+}
+
+
+.bgHead {
+    background-image: url(/assets/homeHero.jpg);
+    height: 600px;
+
+
+}
+
+
+
+
+h1 {
+    font-family: Fugaz;
+    font-size: 50px;
+    color: #5F002B;
+    padding-left: 40px;
+    padding-top: 24px;
+
+}
+
+.textBody {
+    font-family: Montauk;
+    color: #5F002B;
+    font-size: 20px;
+    padding-left: 40px;
+    padding-bottom: 50px;
+
+
+}
+
+.divBox {
+    background-color: white;
+}
+
+
+
+
+.footText {
+    font-family: Montauk;
+    font-size: 20px;
+    color: #5F002B;
+    
+    
+    
+}
+
+.footTextR {
+    font-family: Montauk;
+    font-size: 20px;
+    text-align: end;
+    color: #5F002B;
+    
+}
+
+
+.padBot {
+    padding-bottom: 100px;
+}
+
+.paddd {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+
+.imgBox {
+    background-image: url(/assets/homeSingle.jpg);
+    height: 449.5px;
+    background-repeat: no-repeat;
+
+}
+
