@@ -339,8 +339,7 @@ body {
 
 
 .bgHead {
-    background-image: url(/assets/homeHero.jpg);
-    height: 600px;
+    object-fit: cover;
 
 
 }
