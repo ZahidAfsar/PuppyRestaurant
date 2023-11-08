@@ -326,6 +326,7 @@ hr.new4 {
         padding-left: 0;
     }
 
+
 }
 
 
@@ -348,7 +349,7 @@ body {
 
 
 
-h1 {
+.muzzleText {
     font-family: Fugaz;
     font-size: 50px;
     color: #5F002B;
@@ -361,14 +362,16 @@ h1 {
     font-family: Montauk;
     color: #5F002B;
     font-size: 20px;
-    padding-left: 40px;
-    padding-bottom: 50px;
+    padding-bottom: 5px;
+    padding-right: 40px;
+    padding-left:40px;
 
 
 }
 
 .divBox {
     background-color: white;
+
 }
 
 
@@ -378,9 +381,7 @@ h1 {
     font-family: Montauk;
     font-size: 20px;
     color: #5F002B;
-    
-    
-    
+  
 }
 
 .footTextR {
@@ -404,8 +405,21 @@ h1 {
 
 .imgBox {
     background-image: url(/assets/homeSingle.jpg);
-    height: 449.5px;
+    height: 100%;
     background-repeat: no-repeat;
+    object-fit: cover;
 
 }
 
+.burgerImage {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+
+@media screen and (max-width: 400px ) {
+    .muzzleText{
+        font-size: 25px;
+    }
+}
