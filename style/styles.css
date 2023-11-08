@@ -221,9 +221,12 @@ hr.new4 {
   }
   @media screen and (max-width: 800px) {
     .boxMaine{
-        width: fit-content;
+        width: 100%;
     }
     .MaineImgSize{
-       width: fit-content;
+       width: 100%;
       }
+
   }
+
+  
