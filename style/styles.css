@@ -1,12 +1,11 @@
 body{
-    background-image: url(../assets/assets/bgtexture.jpg);
+    background-image: url(/assets/bgtexture.jpg);
 }
-
 
 
 .rowNav{
     margin-top: 30px;
-    /* outline: red dotted 1px; */
+
 }
 .rowNav1{
     margin-top: 20px;
@@ -21,7 +20,6 @@ body{
 
 .MenuTitle{
     text-align: center;
-    /* background-color: white; */
     font-size: 40px;
     font-family: Fugaz;
     color: #5F002B;
@@ -65,7 +63,6 @@ body{
     width: 630px;
     height: 650px;
     background-color: white;
-    /* outline: red dotted 1px ; */
 }
 
 
@@ -108,7 +105,6 @@ body{
 .PriceText{
     font-family: Montauk;
     font-size: 28px;
-    /* padding-top: 15px; */
     padding-left: 30px;
     color: #5F002B;
 }
@@ -134,6 +130,17 @@ hr.new4 {
     text-align: center;
     position: relative;
     bottom: 25px;
+  }
+
+  .footerText{
+    font-family: Montauk;
+    color: #5F002B;
+    font-size: 20px;
+  }
+  .footerText2{
+    font-family: Montauk;
+    text-align: end;
+    font-size: 20px;
   }
 
   .ColAlign{
@@ -181,19 +188,7 @@ hr.new4 {
   .card{
     border-radius: 0px;
   }
-/* 
-  @media  screen and (max-width: 800px) {
-    .MaineImgSize{
-        width: 280px;
-        height: 200px;
-      }
-    
-      .boxMaine{
-        background-color: white;
-        width: 400px;
-        height: 200px;
-      }
-  } */
+
 
   @media screen and (max-width: 500px) {
     .boxMaine{
@@ -209,10 +204,6 @@ hr.new4 {
       }
 
   }
-
-  body{
-    background-image: url(../assets/assets/bgtexture.jpg);
-}
 
 .containedImage{
     height: 100%;
@@ -268,8 +259,18 @@ hr.new4 {
     display: flex; justify-content: center; flex-flow: column; flex-wrap: wrap;
 }
 
+.footer{
+    margin-left: 20px;
+    display: flex;
+    justify-content: space-between;
+}
 
-@font-face {
+
+@media (max-width: 735px){
+    .storyBox{
+       
+    }
+}@font-face {
     font-family: Fugaz;
     src: url(/assets/FugazOne-Regular.ttf);
 }
@@ -332,7 +333,7 @@ hr.new4 {
 
 body {
     background-image: url(/assets/bgtexture.jpg);
-    /* background-size: 70%; */
+
 
 }
 
