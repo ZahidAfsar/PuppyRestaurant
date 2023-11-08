@@ -287,12 +287,6 @@ hr.new4 {
     display: flex; justify-content: center; flex-flow: column; flex-wrap: wrap;
 }
 
-.footer{
-    margin-left: 20px;
-    display: flex;
-    justify-content: space-between;
-}
-
 @font-face {
     font-family: montauk;
     src: url(../assets/Montauk-Regular/Montauk-Regular.otf);
