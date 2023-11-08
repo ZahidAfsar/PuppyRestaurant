@@ -8,10 +8,7 @@
     src: url(/assets/Montauk-Regular.otf);
 }
 
-.navLogo{
-    margin-bottom: 20px;
-    padding-left: 166px;
-}
+
 .nav-item{
     margin-top: 20px;
     margin-bottom: 20px;
@@ -33,7 +30,7 @@
 }
 
 
-@media(max-width: 991px) {
+@media(max-width: 768px) {
 
     .navLeft.collapse.show {
         display: flex;
@@ -46,29 +43,33 @@
         justify-content: left;
         flex-wrap: wrap;
     }
-
-    .imgResize {
-        height: 100%;
-        width: 100%;
+    .navLogo {
+        display: flex;
+        justify-content: left;
     }
+
 
     .padd {
         padding-right: 0;
+        padding-left: 0;
     }
+
 }
+
 
 
 
 body {
     background-image: url(/assets/bgtexture.jpg);
+    /* background-size: 70%; */
 
 }
 
 
 .bgHead {
     background-image: url(/assets/homeHero.jpg);
-    background-size: cover;
     height: 600px;
+
 
 }
 
@@ -81,27 +82,22 @@ h1 {
     color: #5F002B;
     padding-left: 40px;
     padding-top: 24px;
-    padding-right: 100px;
+
 }
 
 .textBody {
+    font-family: Montauk;
     color: #5F002B;
     font-size: 20px;
     padding-left: 40px;
-    padding-right: 60px;
     padding-bottom: 50px;
+
 
 }
 
 .divBox {
     background-color: white;
-
 }
-
-
-
-
-
 
 
 
@@ -110,6 +106,8 @@ h1 {
     font-family: Montauk;
     font-size: 20px;
     color: #5F002B;
+    
+    
     
 }
 
@@ -122,4 +120,20 @@ h1 {
 }
 
 
+.padBot {
+    padding-bottom: 100px;
+}
+
+.paddd {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+
+.imgBox {
+    background-image: url(/assets/homeSingle.jpg);
+    height: 449.5px;
+    background-repeat: no-repeat;
+
+}
 
