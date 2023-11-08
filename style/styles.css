@@ -1,4 +1,82 @@
+body{
+    background-image: url(../assets/assets/bgtexture.jpg);
+}
+
+.containedImage{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.storyBox{
+    background-color: white;
+    color:#5F002B;
+    font-family: montauk;
+    font-size: small;
+}
+
+.storyHeader{
+    color:#5F002B;
+    font-weight: 800;
+    font-style: italic;
+}
+
+.spacing{
+    margin-bottom: 40px;
+}
+
+.gridPics{
+    margin-bottom: 10px;
+    border: 10px solid white;
+    object-fit: cover;
+}
+
+.sectionTitle{
+    background-color: white;
+    color:#5F002B;
+    font-family: fugaz;
+    font-weight: 700;
+    font-style: italic;
+    margin-top: 60px;
+    padding: 10px;
+    text-align: center;
+}
+
+.bottomPadding{
+    padding-bottom: 20px;
+}
+
+.navEdit{
+    color:#5F002B;
+    font-family: fugaz;
+    font-weight: 500;
+}
+
+.mobileImages{
+    display: flex; justify-content: center; flex-flow: column; flex-wrap: wrap;
+}
+
+.footer{
+    margin-left: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
 @font-face {
+    font-family: montauk;
+    src: url(../assets/Montauk-Regular/Montauk-Regular.otf);
+}
+
+@font-face {
+    font-family: fugaz;
+    src: url(../assets/FugazOne-Regular.ttf);
+}
+
+@media (max-width: 735px){
+    .storyBox{
+       
+    }
+}@font-face {
     font-family: Fugaz;
     src: url(/assets/FugazOne-Regular.ttf);
 }
