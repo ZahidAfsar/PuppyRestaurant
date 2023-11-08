@@ -154,14 +154,13 @@ hr.new4 {
 
   .MaineImgSize{
     width: 520px;
-    max-height: 100%;
+    height: 100%;
   }
 
   .boxMaine{
     background-color: white;
     /* min-width: 770px; */
-    /* min-height: 300px; */
-    
+    /* min-height: 300px; */ 
   }
 
   .SpaceContainer{
@@ -181,7 +180,7 @@ hr.new4 {
     bottom: 20px;
     padding-left: 20px;
     font-family: Montauk;
-    font-size: 14px;
+    font-size: 16px;
     color: #5F002B;
   }
 
@@ -332,8 +331,7 @@ body {
 
 
 .bgHead {
-    background-image: url(/assets/homeHero.jpg);
-    height: 600px;
+    object-fit: cover;
 
 
 }
