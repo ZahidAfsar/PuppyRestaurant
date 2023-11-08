@@ -2,15 +2,7 @@ body{
     background-image: url(../assets/assets/bgtexture.jpg);
 }
 
-@font-face {
-    font-family: FugazOne;
-    src: url(../assets/Montauk-Regular/FugazOne-Regular.ttf);
-}
 
-@font-face {
-    font-family: Montauk;
-    src: url(../assets/Montauk-Regular/Montauk-Regular.otf);
-}
 
 .rowNav{
     margin-top: 30px;
@@ -18,7 +10,7 @@ body{
 }
 .rowNav1{
     margin-top: 20px;
-    font-family: FugazOne;
+    font-family: Fugaz;
     font-size: 20px;
 }
 
@@ -31,7 +23,7 @@ body{
     text-align: center;
     /* background-color: white; */
     font-size: 40px;
-    font-family: FugazOne;
+    font-family: Fugaz;
     color: #5F002B;
     padding-top: 20px;
 }
@@ -78,7 +70,7 @@ body{
 
 
 .SandwichesTitle{
-    font-family: FugazOne;
+    font-family: Fugaz;
     color: #5F002B;
     font-size: 30px;
     padding-top: 15px;
@@ -144,17 +136,6 @@ hr.new4 {
     bottom: 25px;
   }
 
-  .footerText{
-    font-family: Montauk;
-    color: #5F002B;
-    font-size: 20px;
-  }
-  .footerText2{
-    font-family: Montauk;
-    text-align: end;
-    font-size: 20px;
-  }
-
   .ColAlign{
     padding-left: 10px;
   }
@@ -184,7 +165,7 @@ hr.new4 {
   .CateringText{
     padding-top: 20px;
     padding-left: 20px;
-    font-family: FugazOne;
+    font-family: Fugaz;
     font-size: 25px;
     color: #5F002B;
   }
@@ -242,7 +223,7 @@ hr.new4 {
 .storyBox{
     background-color: white;
     color:#5F002B;
-    font-family: montauk;
+    font-family: Montauk;
     font-size: small;
 }
 
@@ -265,7 +246,7 @@ hr.new4 {
 .sectionTitle{
     background-color: white;
     color:#5F002B;
-    font-family: fugaz;
+    font-family: Fugaz;
     font-weight: 700;
     font-style: italic;
     margin-top: 60px;
@@ -279,7 +260,7 @@ hr.new4 {
 
 .navEdit{
     color:#5F002B;
-    font-family: fugaz;
+    font-family: Fugaz;
     font-weight: 500;
 }
 
@@ -287,15 +268,6 @@ hr.new4 {
     display: flex; justify-content: center; flex-flow: column; flex-wrap: wrap;
 }
 
-@font-face {
-    font-family: montauk;
-    src: url(../assets/Montauk-Regular/Montauk-Regular.otf);
-}
-
-@font-face {
-    font-family: fugaz;
-    src: url(../assets/FugazOne-Regular.ttf);
-}
 
 @font-face {
     font-family: Fugaz;
