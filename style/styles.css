@@ -383,6 +383,18 @@ hr.new4 {
 
 }
 
+@media screen and (max-width: 830px) {
+    .CateringHeroImg{
+        height: 400px;
+    }
+}
+
+@media screen and (max-width: 430px) {
+    .CateringHeroImg{
+        height: 300px;
+    }
+}
+
 
 
 
