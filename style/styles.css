@@ -260,13 +260,17 @@ hr.new4 {
     background-color: white;
     color:#5F002B;
     font-family: Montauk;
-    font-size: small;
+    font-size: 23px;
 }
 
 .storyHeader{
     color:#5F002B;
     font-weight: 800;
     font-style: italic;
+}
+
+.storyContainer{
+    margin-left: 60px; margin-right: 60px;
 }
 
 .spacing{
@@ -419,6 +423,16 @@ body {
 
 }
 
+.aboutDesc{
+    font-family: Montauk;
+    font-weight: 100;
+    color: #5F002B;
+    font-size: 23px;
+    padding-bottom: 5px;
+    padding-right: 40px;
+    padding-left:40px;
+}
+
 .divBox {
     background-color: white;
 
@@ -471,5 +485,16 @@ body {
 @media screen and (max-width: 400px ) {
     .muzzleText{
         font-size: 25px;
+    }
+    .storyBox{
+        font-size: 15px;
+    }
+    .storyContainer{
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+
+    .aboutDesc{
+        font-size: 15px;
     }
 }
