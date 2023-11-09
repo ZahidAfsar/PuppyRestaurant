@@ -426,4 +426,15 @@ body {
     .muzzleText{
         font-size: 25px;
     }
+    .storyBox{
+        font-size: 15px;
+    }
+    .storyContainer{
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+
+    .aboutDesc{
+        font-size: 15px;
+    }
 }
