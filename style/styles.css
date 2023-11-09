@@ -270,7 +270,7 @@ hr.new4 {
 }
 
 .storyContainer{
-    margin-left: 60px; margin-right: 60px;
+    margin-right: 150px; margin-left: 150px;
 }
 
 .spacing{
@@ -342,6 +342,11 @@ hr.new4 {
     padding-right: 60px;
 }
 
+@media screen and (max-width: 1500px){
+    .storyContainer{
+        margin-right: 20px; margin-left: 20px;
+    }
+}
 
 @media screen and (max-width: 768px) {
 
@@ -360,7 +365,6 @@ hr.new4 {
         display: flex;
         justify-content: left;
     }
-
 
     .padd {
         padding-right: 0;
