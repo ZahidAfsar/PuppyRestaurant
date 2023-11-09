@@ -260,17 +260,13 @@ hr.new4 {
     background-color: white;
     color:#5F002B;
     font-family: Montauk;
-    font-size: 23px;
+    font-size: 15px;
 }
 
 .storyHeader{
     color:#5F002B;
     font-weight: 800;
     font-style: italic;
-}
-
-.storyContainer{
-    margin-right: 150px; margin-left: 150px;
 }
 
 .spacing{
