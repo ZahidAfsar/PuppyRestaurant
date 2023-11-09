@@ -40,6 +40,7 @@ body{
     width: 630px;
 }
 
+
 .boxMenu{
     margin: 0px;
     padding: 0px;
@@ -90,6 +91,15 @@ body{
     bottom: 30px;
 }
 
+.SandwichesText12{
+    font-family: Montauk;
+    font-size: 18px;
+    color: white;
+    padding-left: 30px;
+    position: relative;
+    bottom: 30px;
+}
+
 .spacetop{
     padding-top: 20px;
 }
@@ -102,17 +112,27 @@ body{
     color: #5F002B;
 }
 
+.paddingBottomMenu{
+    padding-bottom: 112px;    
+}
+
 .PriceText{
     font-family: Montauk;
     font-size: 28px;
-    padding-left: 30px;
+    padding-left: 20px;
     color: #5F002B;
+}
+.PriceText2{
+    font-family: Montauk;
+    font-size: 28px;
+    padding-left: 20px;
+    color: white;
 }
 .PriceText1{
     font-family: Montauk;
     font-size: 28px;
     padding-top: 15px;
-    padding-left: 30px;
+    padding-left: 20px;
     color: #5F002B;
 }
 .SandText1{
@@ -121,10 +141,27 @@ body{
     padding-left: 30px;
     color: #5F002B;
 }
+.SandText12{
+    font-family: Montauk;
+    font-size: 28px;
+    padding-left: 30px;
+    color: white;
+}
+
+
 
 hr.new4 {
     margin-left: 30px;
     border: 1px solid #5F002B;
+    height: 2px;
+    width: 575px;
+    text-align: center;
+    position: relative;
+    bottom: 25px;
+  }
+  hr.new45 {
+    margin-left: 30px;
+    border: 1px solid white;
     height: 2px;
     width: 600px;
     text-align: center;
@@ -194,12 +231,21 @@ hr.new4 {
         width: 100%;
     }
   }
-  @media screen and (max-width: 800px) {
+  @media screen and (max-width: 821px) {
     .boxMaine{
         width: 100%;
     }
     .MaineImgSize{
        width: 100%;
+      }
+      hr.new4 {
+        margin-left: 30px;
+        border: 1px solid #5F002B;
+        height: 2px;
+        width: 275px;
+        text-align: center;
+        position: relative;
+        bottom: 25px;
       }
 
   }
@@ -293,7 +339,7 @@ hr.new4 {
 }
 
 
-@media(max-width: 768px) {
+@media screen and (max-width: 768px) {
 
     .navLeft.collapse.show {
         display: flex;
@@ -316,6 +362,20 @@ hr.new4 {
         padding-right: 0;
         padding-left: 0;
     }
+
+    hr.new4 {
+        margin-left: 30px;
+        border: 1px solid #5F002B;
+        height: 2px;
+        width: 275px;
+        text-align: center;
+        position: relative;
+        bottom: 25px;
+      }
+
+      .PriceText{
+        padding-bottom: 20px;
+      }
 
 
 }
